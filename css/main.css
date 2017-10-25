@@ -1,3 +1,235 @@
 /*
- * Estilos de tu proyecto
+
+Tipografia: MONSERRAT
+;
+ COLORES REFERENCIA
+EBotones, hover: #FF00BF
+Fondo de footer: #333447
+Título del formulario: #352384
+Texto del formulario: #728099
+Gradiente morado: linear-gradient(#76278F, #2B1E66);
  */
+
+ body{
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ header{
+ 	width: auto;
+ 	height: 650px;
+ 	margin:0;
+ 	padding:0;
+ 	background-image: url('../assets/images/hero.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: auto;
+    font-weight: 300;
+    font-size: 1.1em;
+ }
+
+ .logo{
+ 	width: 60px;
+ 	height: 60px;
+ 	margin-left: 50px;
+	padding: 40px;
+	padding-top: 40px;
+	display: inline-block;
+ }
+
+.logo img{
+ 	width: auto;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	position: relative;
+ }
+
+ nav{
+	display: inline-block;
+	float: right;
+	margin-top: 45px;
+	padding-right: 25px;
+	width: 550px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	height: 40px;
+	width: 100%;
+	display: inline-block;
+}
+
+li{
+	width: 100px;
+	color: #000;
+	display: inline-block;
+	margin-left: 10px;
+	text-align: center; /*centra en el bloque el texto*/
+}
+
+a{
+	color: #fff;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FF00BF;
+}
+
+button{
+	font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    color:white;
+    background:none;
+    border:1px solid white;
+    border-radius: 5px;
+    width:80px;
+    height: 40px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    
+}
+
+.menu{
+	margin:0;
+	padding: 0;
+	width: 100%;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.01) 93%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.01) 93%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.01) 93%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.sigup{
+	width: 540px;
+	height: 400px;
+	float: right;
+	background-color: #fff;
+}
+
+/*gradiente
+.gradiente{
+	width: 100%;
+	height: 30px;
+	margin:0;
+	opacity: 0.1;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.01) 93%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+/*background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.01) 93%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.01) 93%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+
+
+/*seccion home*/
+
+#home{
+	color: #fff;
+	background: #692688; /* Old Browsers */
+background: -webkit-linear-gradient(#692688, #2e1e68);
+background: -o-linear-gradient(#692688, #2e1e68);
+background: linear-gradient(#692688, #2e1e68); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
+/*	background-color: #692688;*/
+	height: auto;
+	width: auto;
+	margin:0;
+	padding: 80px;
+	overflow: auto;
+}
+
+.informacion{
+	width: 440px;
+	height: 500px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	align-self: center;
+	padding-left: 10px;	
+	color: #fff;
+}
+
+.informacion h2{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 2em;
+	margin: 0;
+}
+
+
+
+.informacion h5{
+	font-weight: 200;
+	font-size: 1em;
+}
+
+.fono{
+	width: 480px;
+	height: 480px;
+	display: inline-block;
+	
+	padding-left: 100px;
+	
+}
+
+.fono img{
+	width: auto;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	position: relative;
+}
+
+/*seccion video*/
+
+.video{
+	background-color: #fff;
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+
+.video .descripcion{
+	width: 400px;
+	height: 300px;
+	margin:0;
+	padding-left: 100px;
+	padding-top: 100px;
+	float: left;
+}
+
+.descripcion h6,h3,p{
+	margin:0;
+}
+
+.video .delimitador{
+	width:640px;
+	margin:auto;
+	float: right;
+}
+
+
+.video .delimitador .play-one{
+	position: relative;
+	padding-bottom: 56.25%; /* 16/9 ratio */
+	padding-top: 30px; /* IE6 workaround*/
+	height: 0;
+	overflow: hidden;
+}
+
+.video .delimitador .play-one iframe,.video .delimitador .play-on object,
+.video .delimitador .play-on embed{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
