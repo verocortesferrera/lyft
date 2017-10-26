@@ -347,17 +347,99 @@ h3{
  	margin:0;
  	padding-left: 30px;
  	padding-right: 30px;
+ 	color: #fff;
+ 	text-align: center;
  }
+
+.links{
+	padding-top: 30px;
+}
 
  .links .columna{
  	display: inline-block;
  	margin:0;
- 	width: 150px;
+ 	width: 200px;
  	height: auto;
  	padding-left: 10px;
  	text-align: none;
  	vertical-align: top;
- 	padding-top: 20px;
  	font-weight: 300;
+ 	text-align: left;
+ }
 
+ .columna ul li{
+ 	text-align: left;
+ 	width: 220px;
+	font-weight: 300;
+	font-size: 0.8em;
+	padding-top: 15px;
+	color: #fff;
+ }
+
+.columna ul li:first-child{
+	font-weight: 500;
+	font-size: 1em;
+}
+
+ .columna ul li a{
+ 	width: auto;
+
+ }
+
+.columna ul li a:hover{
+ 	color: #FF00BF;
+ 	text-decoration: underline;
+
+ }
+
+
+ .barra-logos{
+ 	width: 500px;
+ 	height: auto;
+ 	margin:0;
+	
+ 	display: inline-block;
+ }
+
+ .barra-logos .apple, .microsoft, .google{
+ 	margin:0;
+ 	width: 380px;
+ 	height: 60px;
+ 	overflow: auto;
+ 	padding-bottom: 15px;
+	padding-top: 15px;
+ 	justify-content: right;
+ }
+
+ .apple img, .microsoft img, .google img{
+ 	height: 100%;
+ 	width: auto;
+ 	float: right;
+ }
+
+ footer .redes{
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 20px;
+ }
+
+footer .redes a{
+	margin:2px;
+    border: 1px solid white;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 9px;
+    padding-bottom: -2px;
+}
+
+
+ footer hr{
+ 	width: 700px;
+ }
+
+ footer p{
+ 	font-size: 0.8em;
+ 	font-weight: 300;
+ 	padding-bottom: 50px;
  }
